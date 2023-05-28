@@ -1,0 +1,58 @@
+#container {
+  background-color: #000;
+}
+#wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrapper div {
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+}
+.layer {
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+}
+.background {
+  position: absolute;
+  width: 108vw;
+  height: 108vh;
+  background-image: url("content/layer1.png");
+}
+.layer2 {
+  width: 105vw;
+  height: 105vh;
+  z-index: 1;
+  background-image: url("content/layer2.png");
+}
+.layer3 {
+  width: 103.5vw;
+  height: 103.5vh;
+  z-index: 2;
+  background-image: url("content/layer3.png");
+}
+.layer4 {
+  width: 102vw;
+  height: 102vh;
+  z-index: 3;
+  background-image: url("content/layer4.png");
+}
+.layer5 {
+  width: 102vw;
+  height: 102vh;
+  z-index: 4;
+  background-image: url("content/layer5.png");
+}
+.layer6 {
+  width: 102vw;
+  height: 102vh;
+  z-index: 3;
+  background-image: url("content/static.gif");
+}
